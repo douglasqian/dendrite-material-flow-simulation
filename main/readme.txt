@@ -1,11 +1,14 @@
-matflowsim v2.1
+matflowsim v2.2
 
 new version features:
- - 2D unidirectional material flow simulation
+ - 2D bidirectional material flow simulation
+ - in-depth code comments
+ - saves simulation to .mp4 file
+ - redefined simulation parameters
 
 known issues:
- - cargo does not stop moving once it reached end (only stops when all cargos reach end)
+ - cannot create a movie for a simplified tree simulation
 
 future features:
- - post simulation .gif movie generation
- - bidirectional transport with cargo processivity
+ - heat map showing cargo density at each branch
+ - implementation of bidirectional transport models
